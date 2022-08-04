@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Shortly</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-box">
+        <a class="logo" href="./index.html">
+          <img class="logo__img" src="./images/logo.svg" alt="Shortly site logo">
+        </a>
+        <button class="site-header__btn"></button>
+        <div class="navbar">
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Features</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Pricing</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Resources</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="button-box">
+            <button class="navigation__login">
+              Login
+            </button>
+            <button class="navigation__signup">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <h1 class="hero__title">
+            More than just shorter links
+          </h1>
+          <p class="hero__text">
+            Build your brand’s recognition and get detailed insights on how your links are performing.
+          </p>
+
+          <button class="main-link" href="#">Get Started</button>
+
+        </div>
+        <div class="hero__formbox">
+          <form class="hero__form" method="post" action="https://echo.htmlacademy.ru/courses" autocomplete="off">
+            <label class="hero__label">
+              <input class="hero__input" type="url" minlength="15" name="entered_url" aria-label="Shorten a link here" placeholder="Shorten a link here..." required>
+              <span class="hero__span">Please add a link</span>
+            </label>
+            <button class="hero__form-button" type="submit">Shorten It!</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="advanced">
+      <div class="container">
+        <div class="info-box">
+          <h2 class="info-box__title">
+            Advanced Statistics
+          </h2>
+          <p class="info-box__text">
+            Track how your links are performing across the web with our advanced statistics dashboard.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
