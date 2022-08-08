@@ -116,6 +116,7 @@ ul{
 
 .site-header--open .navbar{
   position: absolute;
+  z-index: 2;
   top: 100%;
   right: 0;
   left: 0;
@@ -541,7 +542,7 @@ ul{
     display: flex;
   }
 
-  .site-header--open .na3vbar{
+  .site-header--open .navbar{
     position: static;
     display: flex;
     flex-direction: row;
